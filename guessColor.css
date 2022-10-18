@@ -1,0 +1,78 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background: black;
+        color: white;
+        display: flex;
+        height: 100vh;
+        overflow: hidden;
+        }
+        section{
+            width: 20rem;
+            /* height: 400px; */
+            border: 2px solid lightblue;
+            margin: auto;
+            padding: .5rem .4rem;
+            
+
+        }
+
+        .sect-header{
+            height: 20%;
+            background-color: rgb(16, 164, 201);
+            color: white;
+            text-transform: capitalize;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            text-transform: uppercase;
+            /* padding-top: 1.3rem; */
+        }
+        .colors{
+            /* border: 2px solid lightblue; */
+            height: 76%;
+            margin-top: 1.7rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+            height: 80px;
+            background-color: blue;
+            width: 80px;
+            border-radius: 15px;
+        }
+
+        .color-box-1{
+            background: green;
+        }
+
+        .game-info{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* height: 25px; */
+            /* padding-top: .5rem; */
+            background: white;
+            color: aqua;
+        }
+        .game-info small:hover{
+            background-color: rgb(16, 164, 201);
+        }
+
+        .fade-out{
+            opacity: 0.009;
+            transition: all in 400ms;
+        }
+
+        .hide{
+            display: none;
+            transition: all in 2s;
+            color: rgb(2, 233, 138);
+        }
